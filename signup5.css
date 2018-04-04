@@ -1,0 +1,68 @@
+body {
+	font-family: 'Nanum Brush Script', cursive;
+  	color: #2b2b2b;
+  	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	text-align: center;
+  	font-size: 26;
+	background: url("icons/header.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#submit {
+	position: fixed;
+	top: 85%;
+	left: 40%;
+}
+
+#nameageschool {
+	position: fixed;
+	top: 40%;
+	left: 30%;
+}
+
+#interestshobbies {
+	position: fixed;
+	top: 40%;
+	left: 30%;
+}
+
+#schedule {
+	position: fixed;
+	top: 30%;
+	left: 30%;
+}
+
+#regions {
+	position: fixed;
+	top: 34%;
+	left: 12%;
+}
+
+#australia {
+	position: fixed;
+	top: 73%;
+	left: 64.1%;
+}
+
+#scheduleaus {
+	position: fixed;
+	top: 43%;
+	left: 70%;
+}
+
+#about {
+	position: fixed;
+	top: 19%;
+	left: 74%;
+}
+
+#signup {
+	position: fixed;
+	top: 18.8%;
+	left: 88%;
+}
+
+
+
