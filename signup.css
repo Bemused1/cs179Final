@@ -13,7 +13,7 @@ body {
 #submit {
 	position: fixed;
 	top: 85%;
-	left: 40%;
+	left: 42%;
 }
 
 #nameageschool {
@@ -208,3 +208,10 @@ body {
 	left: 12%;
 }
 
+#scheduletable {
+	padding-top: 200px;
+    width: 1400px;
+    height: 650px;
+    border: 4px;
+    padding-left: 120px;
+}
