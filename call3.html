@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<script src="slider.js"></script>
 <div id="profilebtn">
 	<a href="profile.html"><img src="icons/profilebtn.png" alt="Profile Button"></a>
 </div>
@@ -32,13 +33,35 @@
 	<a href="call.html"><img src="icons/callbtn.png" alt="Call Button"></a>
 </div>
 
-<div id="callfiller3">
-	<a href="visual.html"><img src="icons/callfiller3.png" alt="Image on call page"></a>
+<div id="slide1desc">
+<p> How informed was the person that you spoke with? </p>
+</div>
+<div class="slidecontainer">
+  <input type="range" min="0" max="10" value="5" class="slider" id="slide1">
+</div>
+<div id= "slide1output">
 </div>
 
+<div id="slide2desc">
+<p> How well do you feel they listened? </p>
+</div>
+<div class="slidecontainer">
+  <input type="range" min="0" max="10" value="5" class="slider" id="slide2">
+</div>
+<div id= "slide2output">
+</div>
 
+<div id="slide3desc">
+<p> Did you feel engaged by the other person? </p>
+</div>
+<div class="slidecontainer">
+  <input type="range" min="0" max="10" value="5" class="slider" id="slide3">
+</div>
+<div id= "slide3output">
+</div>
 
-
+<div id="submit">
+	<a href="visual.html"><img src="icons/submit.png" alt="Submit Button"></a>
 </div>
 </body>
 </html>
