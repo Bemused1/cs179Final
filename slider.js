@@ -23,6 +23,14 @@ window.onload = function() {
 	slider3.oninput = function() {
     	output3.innerHTML = this.value;
 	}
+
 };
 
 
+function reportbtnpress() {
+	window.confirm("Are you sure that you want to report this user?");
+}
+
+function sharebtnpress() {
+	window.confirm("We'll send your info to Sarah so that she can contact you again!")
+}
