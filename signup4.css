@@ -48,8 +48,8 @@ body {
 
 #scheduleaus {
 	position: fixed;
-	top: 73%;
-	left: 64%;
+	top: 40%;
+	left: 74%;
 }
 
 #profilebtn {
@@ -108,7 +108,7 @@ body {
 
 #homeleftbottom {
 	position: fixed;
-	top: 83%;
+	top: 79%;
 	left: 0%;
 }
 
@@ -367,8 +367,8 @@ body {
 	left: 37.25%;
 }
 
-#infobtn {
+#textonsignup4 {
 	position: fixed;
-	top: 30%;
-	left: 4%;
+	top: 26%;
+	left: 15%;
 }

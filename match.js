@@ -24,6 +24,8 @@ window.onload = function() {
 	if (day >= 0 && time >= 0) {
 		var dayString = translateday(day);
 		var timeString = translatetime(time);
+		localStorage.setItem('dayString', dayString);
+		localStorage.setItem('timeString', timeString);
 		changediv.innerHTML = "<p> " + "Thanks for completing this process! We used the times that you selected in your schedule to match you with a partner. You will be chatting with Sarah on " + dayString + " in the " + timeString + " time slot. We hope that you're looking forward to it!" + " </p>";
 	}
 	else {
