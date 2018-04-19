@@ -27,3 +27,11 @@ body {
 	top: 18.8%;
 	left: 88%;
 }
+
+.hover {
+	opacity: 0.8;
+}
+
+.hover:hover {
+    opacity: 1; 
+}

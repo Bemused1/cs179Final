@@ -42,3 +42,12 @@ function translatetime(time) {
 	var times = ['10-11', '11-12', '12-1', '1-2', '2-3', '3-4', '4-5', '5-6'];
 	return times[time];
 }
+
+function clicked(num) {
+	if (num == 1) {
+		var email = prompt("Please enter your email address:", "someone@address.com");
+	}
+	else {
+		alert("Added to calendar!");
+	}
+};

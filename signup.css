@@ -98,6 +98,14 @@ body {
 	position: fixed;
 	top: 60%;
 	left: 35%;
+	cursor: pointer; 
+}
+
+#emailcalendar2 {
+	position: fixed;
+	top: 75%;
+	left: 35.7%;
+	cursor: pointer; 
 }
 
 #homelefttop {
@@ -324,7 +332,7 @@ body {
 }
 
 .hover {
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .hover:hover {
@@ -335,30 +343,35 @@ body {
 	position: fixed;
 	top: 34%;
 	left: 16.4%;
+	cursor: pointer; 
 }
 
 #SA {
 	position: fixed;
 	top: 63%;
 	left: 26.5%;
+	cursor: pointer; 
 }
 
 #AFRICA {
 	position: fixed;
 	top: 53.4%;
 	left: 40%;
+	cursor: pointer; 
 }
 
 #ASIA {
 	position: fixed;
 	top: 36.3%;
 	left: 42.7%;
+	cursor: pointer; 
 }
 
 #AUS {
 	position: fixed;
 	top: 72.2%;
 	left: 64.5%;
+	cursor: pointer; 
 }
 
 #availabilities {
@@ -371,4 +384,10 @@ body {
 	position: fixed;
 	top: 30%;
 	left: 4%;
+}
+
+#textonsignup4 {
+	position: fixed;
+	top: 26%;
+	left: 17%;
 }
