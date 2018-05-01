@@ -7,14 +7,26 @@
 
 </head>
 
-<body>
+<body style="background-image:url(icons/balloonbckg.jpg)">
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  Please enter your name, age, and school below:
+</div>
 <script src="buttonhover.js"></script>
 <div id="submit">
-	<a href="signup2.html"><img src="icons/submit.png" alt="Submit Button" id="btn"></a>
+	<a href="signup2.html"><img src="icons/whitesubmit.png" alt="Submit Button" id="btn" class="hover"></a>
 </div>
 
 <div id="nameageschool">
-	<img src="icons/nameageschoolr.png" alt="Filler for name age school input">
+<form>
+  Name 
+  <input type="text" name="name" placeholder="Jane Adams" size="70"><br> <br> <br>
+  Age  
+  <input type="text" name="age" placeholder="15" size="70"><br> <br> <br>
+  School 
+  <input type="text" name="school" placeholder="RedHill Middle School" size="70">
+  <br>
+</form>
 </div>
 
 </div>

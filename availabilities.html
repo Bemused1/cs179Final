@@ -2,17 +2,21 @@
 <head>
 	 <title>e-passport sign-up page</title>
 	 <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="signup.css">
+  <link rel="stylesheet" type="text/css" href="availabilities.css">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
 
 </head>
 
-<body>
+<body style="background-image:url(icons/mtnbckg.jpg)">
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  If your time preferences have changed, that's okay! Just let us know below:
+</div>
 <script src="availabilities.js"></script>
 <div id="submit">
-	<a href="profile.html"><img src="icons/submit.png" alt="Submit Button"></a>
+	<a href="profile.html"><img src="icons/whitesubmit.png" alt="Submit Button"></a>
 </div>
-
+<div id="schedtable">
 <table id="scheduletable";>
 <tbody>
 <tr style="height: 22px; width: 10px">
@@ -107,7 +111,7 @@
 </tr>
 </tbody>
 </table>
-
+</div>
 </div>
 </body>
 </html>

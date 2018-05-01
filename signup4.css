@@ -1,5 +1,5 @@
 body {
-	font-family: 'Nanum Brush Script', cursive;
+	font-family: 'Avenir Next';
   	color: #2b2b2b;
   	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 	text-align: center;
@@ -55,7 +55,7 @@ body {
 #profilebtn {
 	position: fixed;
 	top: 17%;
-	left: 6%;
+	left: 38%;
 }
 
 #aboutbtn {
@@ -67,7 +67,7 @@ body {
 #homebtn {
 	position: fixed;
 	top: 17.2%;
-	left: 38%;
+	left: 6%;
 }
 
 #passportbtn {
@@ -370,5 +370,5 @@ body {
 #textonsignup4 {
 	position: fixed;
 	top: 26%;
-	left: 15%;
+	left: 4%;
 }

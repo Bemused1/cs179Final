@@ -2,27 +2,30 @@
 <head>
 	 <title>e-passport sign-up page</title>
 	 <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="signup4.css">
+  <link rel="stylesheet" type="text/css" href="schedule.css">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
 
 </head>
 
-<body>
+<body style="background-image:url(icons/londonbckg.jpg)">
+<div id="whiteheader">
+	<img src="icons/whiteheader.png" alt="About Button"></a>
+</div>
 <script src="schedulepage.js"></script>
 <div id="profilebtn">
-	<a href="profile.html"><img src="icons/profilebtn.png" alt="Profile Button" class="hover"></a>
+	<a href="profile.html"><img src="icons/profilebtns.png" alt="Profile Button" class="hover"></a>
 </div>
 
 <div id="aboutbtn">
-	<a href="about.html"><img src="icons/aboutbtn.png" alt="About Button" class="hover"></a>
+	<a href="about.html"><img src="icons/aboutbtns.png" alt="About Button" class="hover"></a>
 </div>
 
 <div id="homebtn">
-	<a href="home.html"><img src="icons/homebtn.png" alt="Home Button" class="hover"></a>
+	<a href="home.html"><img src="icons/homebtns.png" alt="Home Button" class="hover"></a>
 </div>
 
 <div id="passportbtn">
-	<a href="passport.html"><img src="icons/passportbtn.png" alt="Passport Button" class="hover"></a>
+	<a href="passport.html"><img src="icons/passportbtns.png" alt="Passport Button" class="hover"></a>
 </div>
 
 <div id="schedulebtn">
@@ -30,31 +33,15 @@
 </div>
 
 <div id="callbtn">
-	<a href="call.html"><img src="icons/callbtn.png" alt="Call Button" class="hover"></a>
+	<a href="call.html"><img src="icons/callbtns.png" alt="Call Button" class="hover"></a>
 </div>
 
-<div id="textonsignup4">
-	<p> Welcome to your schedule! Select the highlighted region to see your schedule. Once complete, we will schedule your next call. </p>
+<div id="textonschedule">
+	<p> Welcome to your schedule! Please note that you can only see your currently scheduled call. Once it is complete, we will schedule your next one! </p>
 </div>
 
-<div id="NA">
-	<img src="icons/whiteNA.png" alt="NORTH AMERICA" onmouseover="onHover(1)" onmouseout="offHover(1)" id="na" onclick="clicked(1)">
-</div>
-
-<div id="SA">
-	<img src="icons/whiteSA.png" alt=" SOUTH AMERICA" onmouseover="onHover(2)" onmouseout="offHover(2)" id="sa" onclick="clicked(2)">
-</div>
-
-<div id="AFRICA">
-	<img src="icons/whiteAFRICA.png" alt=" AFRICA" onmouseover="onHover(3)" onmouseout="offHover(3)" id="africa" onclick="clicked(3)">
-</div>
-
-<div id="ASIA">
-	<img src="icons/whiteASIA.png" alt=" ASIA" onmouseover="onHover(4)" onmouseout="offHover(4)" id="asia" onclick="clicked(4)">
-</div>
-
-<div id="AUS">
-	<img src="icons/blackAUS.png" alt=" AUSTRALIA" onmouseover="onHover(5)" onmouseout="offHover(5)" id="aus" onclick="clicked(5)">
+<div id=schedulefiller> 
+	<img src="icons/schedulefiller.png" alt="Schedule text">
 </div>
 
 

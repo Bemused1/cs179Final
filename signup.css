@@ -1,13 +1,19 @@
 body {
-	font-family: 'Nanum Brush Script', cursive;
+	font-family: 'Avenir Next';
   	color: #2b2b2b;
-  	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+
 	text-align: center;
-  	font-size: 26;
-	background: url("icons/header.png");
+  	font-size: 20;
+	/*background: url("icons/header.png");*/
 	background-position: center top;
 	background-repeat: no-repeat;
     background-size: 100%;
+}
+
+#whiteheader {
+	position: fixed;
+	top: 0%;
+	left: 0%;
 }
 
 #submit {
@@ -18,8 +24,8 @@ body {
 
 #nameageschool {
 	position: fixed;
-	top: 40%;
-	left: 30%;
+	top: 30%;
+	left: 33%;
 }
 
 #interestshobbies {
@@ -54,37 +60,37 @@ body {
 
 #profilebtn {
 	position: fixed;
-	top: 17%;
-	left: 6%;
+	top: 7%;
+	left: 38%;
 }
 
 #aboutbtn {
 	position: fixed;
-	top: 17.2%;
+	top: 7.2%;
 	left: 22%;
 }
 
 #homebtn {
 	position: fixed;
-	top: 17.2%;
-	left: 38%;
+	top: 7.2%;
+	left: 6%;
 }
 
 #passportbtn {
 	position: fixed;
-	top: 17.2%;
+	top: 7.2%;
 	left: 52%;
 }
 
 #schedulebtn {
 	position: fixed;
-	top: 17.2%;
+	top: 7.2%;
 	left: 70%;
 }
 
 #callbtn {
 	position: fixed;
-	top: 17.2%;
+	top: 7.2%;
 	left: 88%;
 }
 
@@ -110,31 +116,43 @@ body {
 
 #homelefttop {
 	position: fixed;
-	top: 32%;
-	left: 0%;
+	top: 17%;
+	left: 5%;
 }
 
 #homeleftbottom {
 	position: fixed;
-	top: 83%;
+	top: 63%;
 	left: 0%;
 }
 
 #homemiddletop {
 	position: fixed;
-	top: 31.9%;
+	top: 20%;
 	left: 30%;
+}
+
+#homeboy {
+	position: fixed;
+	top: 67%;
+	left: 70%;
+}
+
+#wboy {
+	position: fixed;
+	top: 46%;
+	left: 54%;
 }
 
 #homemiddlebottom {
 	position: fixed;
-	top: 79%;
-	left: 30%;
+	top: 63%;
+	left: 35%;
 }
 
 #homeright {
 	position: fixed;
-	top: 31.9%;
+	top: 16.9%;
 	left: 70%;
 }
 
@@ -182,25 +200,25 @@ body {
 
 #callfiller {
 	position: fixed;
-	top: 27%;
+	top: 17%;
 	left: 18%;
 }
 
 #callfiller2 {
 	position: fixed;
-	top: 27%;
+	top: 17%;
 	left: 18%;
 }
 
 #callfiller3 {
 	position: fixed;
-	top: 27%;
+	top: 17%;
 	left: 18%;
 }
 
 #visual {
 	position: fixed;
-	top: 27%;
+	top: 17%;
 	left: 18%;
 }
 
@@ -265,55 +283,55 @@ body {
 
 #slide1 {
 	position: fixed;
-	top: 40%;
+	top: 30%;
 	left: 49%;
 }
 
 #slide2 {
 	position: fixed;
-	top: 50%;
+	top: 40%;
 	left: 49%;
 }
 
 #slide3 {
 	position: fixed;
-	top: 60%;
+	top: 50%;
 	left: 49%;
 }
 
 #slide1output {
 	position: fixed;
-	top: 40%;
+	top: 30%;
 	left: 92%;
 }
 
 #slide2output {
 	position: fixed;
-	top: 50%;
+	top: 40%;
 	left: 92%;
 }
 
 #slide3output {
 	position: fixed;
-	top: 60%;
+	top: 50%;
 	left: 92%;
 }
 
 #slide1desc {
     position: fixed;
-	top: 37%;
+	top: 27%;
 	left: 15%;
 }
 
 #slide2desc {
     position: fixed;
-	top: 47%;
+	top: 37%;
 	left: 15%;
 }
 
 #slide3desc {
     position: fixed;
-	top: 57%;
+	top: 47%;
 	left: 15%;
 }
 
@@ -390,4 +408,40 @@ body {
 	position: fixed;
 	top: 26%;
 	left: 17%;
+}
+
+#textonschedule {
+	position: fixed;
+	top: 16%;
+	left: 17%;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #FFFFFF; 
+    color: black;
+    margin-bottom: 15px;
+}
+
+.alertw {
+    padding: 20px;
+    background-color: #32CD32; 
+    color: black;
+    margin-bottom: 15px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.closebtn:hover {
+    color: black;
 }

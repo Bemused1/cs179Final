@@ -22,28 +22,28 @@ function listenComplete() {
 
 function onHover(country) {
 	if (country == 1){
-		if (na.getAttribute('src') == "icons/greyNA.png") {
-			na.src = "icons/colorNA.png";
+		if (na.getAttribute('src') == "icons/blackNA.png") {
+			na.src = "icons/whiteNA.png";
 		}
 	}
 	else if (country == 2){
-		if (sa.getAttribute('src') == "icons/greySA.png") {
-			sa.src = "icons/colorSA.png";
+		if (sa.getAttribute('src') == "icons/blackSA.png") {
+			sa.src = "icons/whiteSA.png";
 		}
 	}
 	else if (country == 3){
-		if (africa.getAttribute('src') == "icons/greyAFRICA.png") {
-			africa.src = "icons/colorAFRICA.png";
+		if (africa.getAttribute('src') == "icons/blackAFRICA.png") {
+			africa.src = "icons/whiteAFRICA.png";
 		}
 	}
 	if (country == 4){
-		if (asia.getAttribute('src') == "icons/greyASIA.png") {
-			asia.src = "icons/colorASIA.png";
+		if (asia.getAttribute('src') == "icons/blackASIA.png") {
+			asia.src = "icons/whiteASIA.png";
 		}
 	}
 	if (country == 5){
-		if (aus.getAttribute('src') == "icons/greyAUS.png") {
-			aus.src = "icons/colorAUS.png";
+		if (aus.getAttribute('src') == "icons/blackAUS.png") {
+			aus.src = "icons/whiteAUS.png";
 		}
 	}
 };
@@ -51,28 +51,28 @@ function onHover(country) {
 
 function offHover(country) {
 	if (country == 1){
-		if (na.getAttribute('src') == "icons/colorNA.png") {
-			na.src = "icons/greyNA.png";
+		if (na.getAttribute('src') == "icons/whiteNA.png") {
+			na.src = "icons/blackNA.png";
 		}
 	}
 	else if (country == 2){
-		if (sa.getAttribute('src') == "icons/colorSA.png") {
-			sa.src = "icons/greySA.png";
+		if (sa.getAttribute('src') == "icons/whiteSA.png") {
+			sa.src = "icons/blackSA.png";
 		}
 	}
 	else if (country == 3){
-		if (africa.getAttribute('src') == "icons/colorAFRICA.png") {
-			africa.src = "icons/greyAFRICA.png";
+		if (africa.getAttribute('src') == "icons/whiteAFRICA.png") {
+			africa.src = "icons/blackAFRICA.png";
 		}
 	}
 	if (country == 4){
-		if (asia.getAttribute('src') == "icons/colorASIA.png") {
-			asia.src = "icons/greyASIA.png";
+		if (asia.getAttribute('src') == "icons/whiteASIA.png") {
+			asia.src = "icons/blackASIA.png";
 		}
 	}
 	if (country == 5){
-		if (aus.getAttribute('src') == "icons/colorAUS.png") {
-			aus.src = "icons/greyAUS.png";
+		if (aus.getAttribute('src') == "icons/whiteAUS.png") {
+			aus.src = "icons/blackAUS.png";
 		}
 	}
 };
