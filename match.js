@@ -26,7 +26,7 @@ window.onload = function() {
 		var timeString = translatetime(time);
 		localStorage.setItem('dayString', dayString);
 		localStorage.setItem('timeString', timeString);
-		changediv.innerHTML = "<p> " + "Thanks for completing this process! We used the times that you selected in your schedule to match you with a partner. You will be chatting with Sarah on " + dayString + " in the " + timeString + " time slot. We hope that you're looking forward to it!" + " </p>";
+		changediv.innerHTML = "<p> " + "Thanks for completing this process! We used the times that you selected in your schedule to match you with a partner. You will be chatting with Sarah on <strong>" + dayString + "</strong> in the <strong>" + timeString + "</strong> time slot. We hope that you're looking forward to it!" + " </p>";
 	}
 	else {
 		changediv.innerHTML = "<p> " + "Oops! You didn't select any times in your schedule, so we couldn't find a time for you. Please update your schedule preferences later, and then we can proceed with finding you a partner and a workable time to chat!" + " </p>";
